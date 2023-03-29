@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Red+Hat+Display:wght@500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+--very-dark-blue: hsl(233, 47%, 7%);
+--dark-desaturated-blue: hsl(244, 38%, 16%);
+--Soft-violet: hsl(277, 64%, 61%);
+--white: hsl(0, 0%, 100%);
+--slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+--slightly-transparent-white: hsla(0, 0%, 100%, 0.6);
+}
+
+body {
+    background-color: var(--very-dark-blue);
+    width: 100%;
+    font-family: Inter, Lexend Deca;
+    background-size: cover;
+}
+
+.Card {
+    background-color: var(--dark-desaturated-blue);
+    position: relative;
+    width: 1440px;
+    height: 35rem;
+    border-radius: 20px;
+    margin-top: 15rem;
+    margin-left: 17rem;
+    overflow: hidden;
+    }
+
+
+.background-image {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background:  linear-gradient(
+        to right,
+        rgba(--dark-desaturated-blue),
+        rgba(--Soft-violet)
+      ), url('/images/image-header-desktop.jpg');
+    background-size: cover;
+    
+}
+
+.usp-heading {
+    color: var(--white);
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Inter;
+    padding-top: 4rem;
+    padding-left: 5rem;
+
+}
+
+.highlight {
+    color: var(--Soft-violet);
+}
+
+.usp-explainer {
+    color: var(--slightly-transparent-white);
+    font-size: 21px;
+    font-weight: 400;
+    font-family: Inter;
+    text-align: left;
+    line-height: 2rem;
+    padding-left: 5rem;
+}
+
+.analytics {
+    position: absolute;
+    color: var(--slightly-transparent-white);
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline; 
+    width: 25%; 
+    margin: 0, auto;
+
+}
+
+.analytics-component1 {
+    position: relative;
+    font-family: Inter;
+    font-weight: 700;
+    padding-top: 3rem;
+    padding-left: 5rem; 
+    font-size: 32px;
+    color: var(--white);
+
+}
+
+.analytics-component2 {
+    position: relative;
+    font-family: Inter;
+    font-weight: 700;
+    margin-left: 3cm;
+    font-size: 32px;
+    color: var(--white);
+}
+
+.analytics-component3 {
+    position: relative;
+    font-family: Inter;
+    font-weight: 700;
+    margin-left: 3cm;
+    font-size: 32px;
+    color: var(--white);
+}
+
+.analytics p {
+    font-weight: 400;
+    font-family: Lexend Deca;
+    font-size: 16px;
+    color: var(--slightly-transparent-white);
+    letter-spacing: 0.05cm;
+}
+
